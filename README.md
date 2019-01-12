@@ -1,7 +1,7 @@
 # PHPTelegramBot
 PHP Telegram Bot
 
-__How To__  \
+### How To  
 Set you Webhook and Telegram Bot Token in configuration files on folder  \
 __/application/appcoree/confige/config.ini__
 
@@ -26,5 +26,11 @@ __WORKS IN PROGRESS__
 * View Functions
 * Database Functions
 * and others
+
+Sample Bot using this code >> https://t.me/TPersonal_Bot
+
+__Links__  
+https://core.telegram.org/bots  
+https://core.telegram.org/bots/api  
 
 __Thanks__
