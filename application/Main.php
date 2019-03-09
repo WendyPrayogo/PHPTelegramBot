@@ -25,7 +25,10 @@ $aload = new AutoloaderClass();
 //** logg processing time */
 //** start app */
 $aload->loadController();
+/** default PHP, using PATH_INFO*/
 $serverPathInfo = isset($_SERVER["PATH_INFO"]) ? $_SERVER["PATH_INFO"] : "/";
+/** others user REQUEST_URI*/
+// $serverPathInfo = isset($_SERVER["REQUEST_URI"]) ? $_SERVER["REQUEST_URI"] : "/";
 $requestMethod = isset($_SERVER["REQUEST_METHOD"]) ? $_SERVER["REQUEST_METHOD"] : "NAV";
 $requestPath = explode("/", $serverPathInfo);
 $isMethod = strpos($tgWebhookAcceptedMethod, $requestMethod);
