@@ -27,8 +27,6 @@ __WORKS IN PROGRESS__
 * Database Functions
 * and others
 
-Sample Bot using this code >> https://t.me/TPersonal_Bot
-
 __Links__  
 https://core.telegram.org/bots  
 https://core.telegram.org/bots/api  
